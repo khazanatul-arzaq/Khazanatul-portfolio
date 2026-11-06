@@ -3,7 +3,6 @@ import Link from "next/link";
 import {
   Mail,
   Linkedin,
-  Phone,
   ArrowDown,
   BarChart3,
   GraduationCap,
@@ -415,20 +414,7 @@ export default function Home() {
                   <ExternalLink size={17} />
                 </a>
 
-                <a
-                  href={`tel:${profile.phoneHref}`}
-                  className="flex items-center gap-4 rounded-2xl bg-white p-4 text-[#26382D] transition hover:-translate-y-1 hover:bg-meadow"
-                >
-                  <Phone size={22} />
-                  <span className="min-w-0 flex-1">
-                    <span className="block text-xs text-gray-500">
-                      Phone
-                    </span>
-                    <span className="font-semibold">
-                      {profile.phone}
-                    </span>
-                  </span>
-                </a>
+                
               </div>
             </div>
           </div>

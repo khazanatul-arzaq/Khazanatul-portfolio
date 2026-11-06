@@ -25,8 +25,6 @@ export const profile = {
   title: "Information Systems Student",
   location: "Padang, West Sumatra, Indonesia",
   email: "khazanatul.arzaq01@gmail.com",
-  phone: "+62 831-8295-0607",
-  phoneHref: "+6283182950607",
   linkedin: "https://www.linkedin.com/in/khazanatul-arzaq-241b263ba",
 };
 
